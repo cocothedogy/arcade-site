@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>64 Bit Arcade - Firmă de Exercițiu</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background-color: #8a2be2;
+            padding: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Press Start 2P', cursive;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: 'Press Start 2P', cursive;
+        }
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('bg.png') no-repeat center center/cover;
+            color: white;
+        }
+        .hero-content {
+            max-width: 800px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 20px;
+            margin: 10px 0 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #cc5200;
+        }
+        /* Ce găsești la noi */
+        .features {
+            background-color: #222;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .features h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        .feature-items {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .feature {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .feature:hover {
+            transform: scale(1.1);
+        }
+        .feature img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+        .feature h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #222;
+            padding: 10px;
+            margin-top: 20px;
+        }
+		
+		.location {
+    background-color: #222;
+    padding: 50px 20px;
+    text-align: center;
+}
+.location h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.map-container {
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+		
+    </style>
+</head>
+<body>
+<header>
+    64 Bit Arcade - Jocurile viitorului
+</header>
+<nav>
+    <a href="sitecoc.html">Home</a>
+    <a href="despre.html">Despre Noi</a>
+    <a href="servicii.html">Servicii</a>
+    <a href="catalog produse.html">catalog produse</a>
+    <a href="Reclame.html">Materii Promotioanle</a>
+    <a href="contact.html">Contact</a>
+<a href="Informatii financiare.html">Informatii financiare</a>
+<a href="power.html">power point firma de exercitiu</a>
+
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>64Bitarcade unde fiecare moneda deschide o poveste</h1>
+        <p>Pregătește-te să retrăiești gamingul anilor '80 și '90 într-o sală plină de clasice legendare: Pac-Man, Space Invaders, Donkey Kong, Street Fighter, Tetris și multe altele </p>
+        <a href="despre.html" class="button">Află mai multe</a>
+    </div>
+</section>
+
+<!-- Ce găsești la noi -->
+<section class="features">
+    <h2>Ce găsiti la noi</h2>
+    <div class="feature-items">
+        <div class="feature">
+            <h3>Console</h3>
+            <p>PS4 PRO și PS5 pe ecrane 4K HDR pentru o experiență de top.</p>
+        </div>
+        <div class="feature">
+            <h3>Mini Bar</h3>
+            <p>Băuturi răcoritoare, cafea de specialitate și gustări delicioase.</p>
+        </div>
+        <div class="feature">
+            <h3>Calculatoare</h3>
+            <p>PC-uri de gaming high-end pentru sesiuni intense de joc.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Locație Google Maps -->
+<section class="location">
+    <h2>Ne găsești aici</h2>
+    <p>Vizitează-ne și bucură-te de cea mai tare experiență de gaming!</p>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.757619003323!2d26.120374400000003!3d44.4381339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff003aac1333%3A0xf93840aa71bf316d!2s64%20BIT%20Arcade%20S.R.L!5e0!3m2!1sro!2sro!4v1739795468272!5m2!1sro!2sro" 
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+</section>
+
+
+<footer>
+    &copy; 2025 64 Bit Arcade - Toate drepturile rezervate.
+</footer>
+</body>
+</html>
